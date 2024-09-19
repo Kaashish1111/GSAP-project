@@ -16,8 +16,16 @@ t.from("#main h1",{
 t.from("img",{
     x:100,
     opacity:0,
-    duration:1,
+    duration:0.5,
     rotate:45,
+    delay:0.1,
+    stagger:0.5
+})
+t.from("#footer h3",{
+    x:100,
+    opacity:0,
+    duration:1,
+    // rotate:45,
     delay:0.3,
     stagger:1
 })

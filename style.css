@@ -40,7 +40,7 @@ html,body{
     /* background-color: red; */
     width: 70%;
     margin-left: 15%;
-    color: white;
+    color:white;
     position: relative;
     z-index: 9;
 }
@@ -70,4 +70,12 @@ html,body{
 }
 #footer{
     color: white;
+    margin-top: 160px;
+    display: flex;
+    /* background-color: red; */
+    width: 60%;
+    justify-content: space-between;
+    padding: 20px;
+    font-weight: 100;
+    text-transform: uppercase;
 }
